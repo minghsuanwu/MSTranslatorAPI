@@ -1,6 +1,6 @@
 # MSTranslatorAPI
 Sample code for Microsoft Translator API<br>
-Reference from https://developers.google.com/google-apps/calendar/quickstart/java<br>
+Reference from https://github.com/firemaples/microsoft-translator-java-api<br>
 <br>
 Entry Point: Call main method in MSTranslatorAPI.java
 
