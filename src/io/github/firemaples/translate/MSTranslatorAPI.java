@@ -13,7 +13,7 @@ public class MSTranslatorAPI {
 
 	private static String readConfig() {
 		StringBuilder sb = new StringBuilder();
-		String filePath = "config.txt";
+		String filePath = "client_secret.json";
 		BufferedReader reader = null;
 
 		try {
@@ -24,7 +24,7 @@ public class MSTranslatorAPI {
 				sb.append(str);
 			}
 		} catch (Exception e) {
-			System.err.println("Please create your config.txt with your server key in JSON format:");
+			System.err.println("Please create your client_secret.json with your server key in JSON format:");
 			System.err.println("{\"serverkey\": \"your server key\"}");
 //			e.printStackTrace();
 		} finally {
